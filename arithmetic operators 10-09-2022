@@ -1,0 +1,19 @@
+/*
+Compile and Execute the C program to calculate Arithmetic Operators Functions such as Pow(x,n), 
+Add(x,n), Sub(x,n), Mul(x,n), Div(x,n), where x and n are the two operands**/
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+   int x,n,add,sub,ml,divi;
+   float powe;
+   printf("\nEnter the value of x:");
+   scanf("%d",&x);
+   printf("\nEnter the value of n:");
+   scanf("%d",&n);
+   printf("\nThe power i.e pow(x,n)=%.2f",pow(x,n));
+   printf("\nThe addition of x,n=%d",x+n);
+   printf("\nThe subtraction of x,n=%d",x-n);
+   printf("\nThe multiplication of x,n=%d",x*n); 
+   printf("\nThe division of x,n=%d",(x/n));
+}
